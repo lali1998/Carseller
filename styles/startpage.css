@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+html body{
+	overflow: hidden;
+}
+
+.dyna-left {
+
+	background: url('../images/teszt.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	text-align: center;
+	color: white;
+}
+
+@media screen and (max-width: 768px) {
+.dyna-left {
+    background: url('../images/teljes.jpg') no-repeat 100% 100%;
+  }
+}
+
+.dyna-right {
+
+	background: url('../images/teszt2.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	text-align: center;
+	color: white;
+}
+
+@media screen and (max-width: 768px) {
+.dyna-right {
+    background: url('../images/teszt2.jpg') no-repeat 100% 100%;
+  }
+}
+
+.dyna-right, .dyna-left{
+	padding-top: 30vh;
+}
+
+.dyna-left h1 , .dyna-right h1 {
+
+	font-size: 50px;
+	font-family: 'Ruslan Display', cursive;
+	padding-bottom: 10px;
+
+}
+
+.dyna-button {
+
+	border-radius: 30px;
+	color: #fff;
+	background-color: #1680b2;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+	transition: all 0.3s;
+	width: 150px;
+
+}
+
+.dyna-button:hover{ 
+
+	background-color: #07649d;
+	color: #fff;
+	border: 1px solid white;
+	width: 180px;
+
+}
+
+
+
+
+
+
+

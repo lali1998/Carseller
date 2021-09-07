@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/*Előre deklarált értékek*/
+:root{
+	--navcolor-1: #2f3240;
+	--whitecolor: #ffffff;
+}
+
+*:focus {
+	outline: none;
+}
+
+button:focus {outline:0 !important;}
+
+body {
+	background-image: linear-gradient(to bottom, #d8e8fa, #d8e8fa);
+	background-repeat: no-repeat;
+}
+/*-------Navbar-------*/
+.navbar {
+	background-color: var(--navcolor-1);
+	color: white;
+	padding: 0 !important;
+	margin: 0!important;
+	border-bottom: 2px solid white;
+}
+
+#dyn-nav-item a {
+	color: white;
+	margin-left: 20px;
+
+}
+
+#dyn-nav-item a:hover {
+	color: #33deff;
+}
+
+.navbar_img{
+	height: 70px;
+}
+/*-------dyncarindex-------*/
+.dyn-indx-bg {
+	background-color: #e2e2e2;
+	width: 100%;
+}
+
+.dyn-indx-con {
+	background-color: #efefef; 
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+	margin-top: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	height: 1400px;
+	position: relative;
+}
+
+.dyn-indx-top {
+	background-color: var(--whitecolor);
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+}
+
+.dyn-indx-frame-text {
+	width: 400px;	
+	height: 300px;
+	background-color: var(--whitecolor);
+}
+
+.dyn-indx-frame-img img {
+	width: 715px;
+	height: 300px;
+}
+
+.dyn-indx-wh-frame {
+	background-color: var(--whitecolor);
+	width: 570px;
+	height: 260px;
+	margin-left: 20px;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	padding-right: 25px;
+	text-align: justify;
+}
+
+.dyn-indx-wh-frame h1 {
+	text-align: left;
+	font-size: 50px;
+}
+
+.dynright {
+	text-align: right;
+
+}
+
+.dyn-indx-middle {
+	background-color: var(--whitecolor);
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	width: 95%;
+	height: 1050px;	
+}
+
+.dyn-indx-second-middle {
+	margin-top: 20px;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.alogin {
+	font-size: 80px;
+	line-height: 80px;
+	font-family: 'Carter One', cursive;
+}
+
+/*-------Gallery-------*/
+.dyn-large-slider {
+	height: 600px;
+}
+
+.dyn-slider-small-img {
+	height: 100px;
+	margin-left: 15px;
+}
+
+.dyn-slider-h2 {
+	text-align: center;
+	font-family: 'Carter One', cursive;
+	border-bottom: 2px solid var(--navcolor-1);
+}
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  margin-right: 15px;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  margin-left: -15px;
+  margin-right: 10px;
+}
+
+.dyn-slider-small-img:last-child {
+  padding-right: -50px;
+}
+
+.demo {
+  opacity: 0.3;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+ }
+/*-------Footer-------*/
+.dyn-footer {
+	padding: 30px;
+	color: var(--whitecolor);
+	background-color: var(--navcolor-1);
+	border-top: 2px solid white;
+}
+
+.dyn-footer h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.dyn-footer ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.dyn-footer ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.dyn-footer .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom:0;
+}
+
+.dyn-footer td {
+	width: 100px;
+	text-align: left;
+}
+/*-------login-------*/
+.dyncar-bg {
+	background-image: url('../images/autoseller.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px;
+
+}
+.dyncar-login-panel {
+	width: 380px;
+	height: 400px;
+	position: relative;
+	margin: 5% auto;
+	background: #fff;
+	padding: 5px;
+}
+
+.dyncar-login-button-box {
+	width: 300px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.dyncar-btn {
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border-top: 3px solid #2596be;
+	outline: none;
+	position: relative;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	margin-top: 5px;
+}
+
+.dyncar-text {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	margin-bottom: 20px;
+}
+
+.dynacar-login-text-box {
+	top: 30px;
+	width: 300px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.dyncar-btn:hover {
+	background: linear-gradient(to bottom, #3fb1d3, #2893bd);
+	color: white;
+}
+/*-------Singup-panel-------*/
+.dyncar-register-panel {
+	width: 380px;
+	height: 650px;
+	margin: 5% auto;
+	background: #fff;
+	padding: 5px;
+	display: none;
+}
+
+.dyncar-register-button-box {
+	width: 300px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.dynacar-register-text-box {
+	top: 60px;
+	width: 300px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.dyncar-register .dyncar-btn {
+	margin-top: 20px;
+
+}
+/*-------accept or deny-------*/
+.acceptordeny-bg {
+	background-image: url('../images/autoseller.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px;
+}
+
+.acceptordeny-panel {
+	width: 700px;
+	height: 150px;
+	margin: 5% auto;
+	background: #fff;
+	padding: 5px;
+	border: 5px groove #2596be;
+}
+
+.acceptordeny-panel img {
+	margin-bottom: 50px;
+}
+
+.acceptordeny-panel .ptext {
+	padding-top: 35px;
+}
+
+.acceptordeny-panel img {
+		width: 150px;
+		padding-top: 5px;
+}
+/*-------Profile-------*/
+
+.dyn-profile-bg {
+	background-color: #e2e2e2;
+	width: 100%;
+}
+
+.profile-avatar {
+	height: 200px;
+	margin-left: -20px;
+	margin-top: 15px;
+}
+
+.profile-form {
+	font-family: 'Graduate', cursive;
+}
+
+.dyn-profile-con {
+	background-color: #efefef; 
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+	margin-top: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	height: 700px;
+	position: relative;
+}
+
+.dyn-profile-top {
+	background-color: var(--whitecolor);
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+	height: 600px;
+	padding-top: 20px;
+}
+
+.profile-title {
+	width: 80%;
+	border-top: 3px solid #2596be;
+	border-bottom: 3px solid #2596be;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+	font-family: 'Graduate', cursive;
+	font-size: 25px;
+}
+
+.profile-btn {
+	width: 350px;
+	height: 40px;
+	cursor: pointer;
+	background: transparent;
+	border-top: 3px solid #2596be;
+	outline: none;
+	position: relative;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	margin-top: 50px;
+}
+
+.profile-btn:hover {
+	background: linear-gradient(to bottom, #3fb1d3, #2893bd);
+	color: white;
+}
+
+.dyn-car-input {
+	width: 100px;
+}
+
+.welcome-name {
+	font-family: 'Staatliches', cursive;
+}
+
+/*-------buyCard-------*/
+.dyncarcardbg {
+	width: 250px;
+	height: 380px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: var(--whitecolor);
+	border: 1px solid #2c94bb;
+	-webkit-box-shadow: 11px 14px 13px -2px #404040; 
+	box-shadow: 11px 14px 13px -2px #404040;
+}
+
+.dyncarcard-title {
+	margin: 5px;
+	text-align: center;
+}
+
+.dyncarcard-img {
+	width: 100%;
+	height: 170px;
+	background: url("img1.jpg");
+	border-bottom: 1px solid #2c94bb;
+}
+
+.dyncarcard-text {
+	margin: 20px;
+	line-height: 25px;
+}
+
+.dyncarcard-button-bg {
+	width: 100%;
+	height: 65px;
+	background-color: #2c94bb;
+}
+
+.dyncarcard-button {
+	text-align: center;
+	padding: 5px;
+	background-color: #116fa5;
+	border-radius: 10px;
+	border: 1px solid #2c94bb;
+	font-family: "Times New Roman", Times, serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dyncarcard-button:hover {
+	background-color: var(--whitecolor);
+	transition: 0.5s;
+	border: 1px solid #116fa5;
+}
+/*-------dyncategory-------*/
+.dyncarcategorybg.row {
+	padding-right: 0;
+}
+
+/* csak az alatta levő div-re érvényes*/
+.dyncarcategorybg.row > div:first-child {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.dynacardbg {
+	min-height: 500px;
+	border: 3px solid lightblue;
+	height: 1000px;
+}
+
+.dynacardbg img {
+	padding-top: 20px;
+	border-bottom: 3px solid lightblue;
+}
+
+.card{
+	margin-left: 65px;
+	margin-top: 30px;
+	height: 400px;
+	font-size: 18px;
+}
+
+.card-text {
+	font-weight: bold;
+}
+
+.card:hover {
+	-webkit-box-shadow: inset -1px 0px 16px 7px rgba(0,0,0,0.26);
+	-moz-box-shadow: inset -1px 0px 16px 7px rgba(0,0,0,0.26);
+	box-shadow: inset -1px 0px 16px 7px rgba(0,0,0,0.26);
+	cursor: pointer;
+}
+
+div.dynacardbg.col-9 {
+	background-color: white;
+	margin: 10px 0 15px 0;
+	padding-left: 10px;
+}
+
+.dynacardbg .cardshow{
+	display: none;
+}
+
+.dnycoll {
+	background-color:  var(--navcolor-1);
+	color: #248fbb;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 18px;
+	border-right: 3px solid var(--whitecolor);
+}
+
+.active, .dnycoll:hover {
+	background-color: var(--whitecolor);
+	font-size: 20px;
+	transition: 0.3s;
+}
+
+.dyncarlabel {
+	width: 90%;
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.dyncarlabel:hover {
+	border-bottom: 2px solid lightblue;
+	cursor: pointer;
+}
+
+.dyncarcategory {
+	display: none;
+	overflow: hidden;
+	background-color: #283B5B;
+	color: var(--whitecolor);
+	border-right: 3px solid var(--whitecolor);
+}
+
+.categoryname {
+	margin-right: 10px;
+	width: 20px; 
+    height: 20px;
+    margin-top: 10px;
+}
+
+.btn-primary {
+
+}
+
+/*-------About-------*/
+.dyn-about-con {
+	background-color: #efefef; 
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+	margin-top: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	height: 450px;
+	position: relative;
+}
+
+.dyn-about-top {
+	background-color: var(--whitecolor);
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+	height: 400px;
+	padding-top: 20px;
+}
+
+.about-title {
+	width: 80%;
+	border-top: 3px solid #2596be;
+	border-bottom: 3px solid #2596be;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+	font-family: 'Graduate', cursive;
+	font-size: 25px;
+}
+
+.dynceg img {
+	border-right: 5px solid #2596be;
+}
+
+.dynceg-title {
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 3px solid #2596be;
+}
+
+.dynceg p {
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

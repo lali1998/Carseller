@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+:root{
+	--navcolor-1: #2f3240;
+	--whitecolor: #ffffff;
+}
+
+/*Navbar*/
+.navbar {
+	background-color: var(--navcolor-1);
+	color: white;
+	padding: 0 !important;
+	margin: 0!important;
+	border-bottom: 2px solid white;
+}
+
+#dyn-nav-item a {
+	color: white;
+	margin-left: 20px;
+
+}
+
+#dyn-nav-item a:hover {
+	color: #33deff;
+}
+
+.navbar_img{
+	height: 70px;
+}
+/*-------Footer-------*/
+.dyn-footer {
+	padding: 30px;
+	color: var(--whitecolor);
+	background-color: var(--navcolor-1);
+	border-top: 2px solid white;
+}
+
+.dyn-footer h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.dyn-footer ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.dyn-footer ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.dyn-footer .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom:0;
+}
+
+.dyn-footer td {
+	width: 100px;
+	text-align: left;
+}
+/*------Hasznalt-autok------*/
+body {
+	background-image: url('../../images/profilebg.jpg');
+	background-repeat: no-repeat;
+}
+
+
+.dynhasznalt {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	margin-bottom: 50px;
+}
+
+.dynhasznalt-title {
+	border-bottom: 3px solid #2596be;
+	font-size: 23px;
+}
+
+.dynhasznaltcards {
+	margin-left: 80px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.dynhasznalt {
+	border: 3px solid lightblue;
+	height: 800px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.dynhasznalt img {
+	padding-top: 20px;
+	border-bottom: 3px solid lightblue;
+}
+
+.card{
+	margin-left: 65px;
+	margin-top: 30px;
+	height: 550px;
+	font-size: 18px;
+}
+
+.card-text {
+	font-weight: bold;
+}
+
+.card:hover {
+	-webkit-box-shadow: inset -1px 0px 16px 7px rgba(0,0,0,0.26);
+	-moz-box-shadow: inset -1px 0px 16px 7px rgba(0,0,0,0.26);
+	box-shadow: inset -1px 0px 16px 7px rgba(0,0,0,0.26);
+	cursor: pointer;
+}
+
+.profile-title {
+	width: 80%;
+	border-top: 3px solid #2596be;
+	border-bottom: 3px solid #2596be;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+	font-family: 'Graduate', cursive;
+	font-size: 25px;
+}
